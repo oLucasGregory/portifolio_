@@ -1,12 +1,22 @@
-import Teste from "./test";
-import EstiloGlobal from "./styles";
+import EstiloGlobal, { Container } from "./styles";
+import Sidebar from "./containers/Sidebar";
+import Sobre from "./containers/Sidebar/Sobre";
+import Projetos from "./containers/Projetos";
 
 
 function App() {
   return (
     <>
-    <Teste/>
     <EstiloGlobal/>
+
+    <Container>
+      <Sidebar/>
+      <main>
+         <Sobre/>
+         <Projetos/>
+       </main>
+    </Container>
+
     </>
   )
 }
