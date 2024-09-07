@@ -1,6 +1,6 @@
 import EstiloGlobal, { Container } from "./styles";
 import Sidebar from "./containers/Sidebar";
-import Sobre from "./containers/Sidebar/Sobre";
+import Sobre from "./containers/Sobre";
 import Projetos from "./containers/Projetos";
 
 
