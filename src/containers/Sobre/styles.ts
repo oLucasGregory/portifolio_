@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const GithubSecao =  styled.div`
  img{
- height: 157px;
+ height: 188px;
+ text-align: center;
  @media (max-width: 768px){
   width: 100%
  }

@@ -6,7 +6,7 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="secundario">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, quasi! Asperiores, illum! Nam, autem facere. Recusandae obcaecati odit consequuntur quia, natus aliquam corrupti porro officiis cupiditate est ullam veritatis repellat!
+      Comecei aprender a programar por hobbie, e criei amor pelas linhas de codigos, então decidir que era isso que eu queria fazer, e hoje ainda estudo para me aperfeiçoar cada dia e me tornar um dev ainda mais competente 
     </Paragrafo>
     <GithubSecao>
        <img src="https://github-readme-stats.vercel.app/api?username=oLucasGregory&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt=""/>

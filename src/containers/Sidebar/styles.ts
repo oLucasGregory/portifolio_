@@ -5,6 +5,10 @@ import { P } from "../../components/Paragrafo/styles";
 export const Descricao = styled(P)`
  margin-top: 24px;
  margin-bottom: 40px;
+ @media (max-width: 768px){
+   text-align: center;
+   font-size: 16px;
+  }
 
 `
 export const BotaoTema = styled.button`
@@ -15,11 +19,20 @@ export const BotaoTema = styled.button`
  font-weight: bold;
  background-color: #282A35;
  cursor: pointer;
-
+ @media (max-width: 768px){
+   text-align: center;
+   font-size: 16px;
+   margin-bottom: 32px;
+  }
 `
 export const SidebarContainer = styled.div`
  position: sticky;
  top: 80px;
  left: 0;
+
+ div{
+  text-align: center;
+
+ }
 
 `
