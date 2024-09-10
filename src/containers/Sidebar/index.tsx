@@ -11,10 +11,8 @@ const Sidebar = () =>(
     <Titulo fontSize={18}>Lucas Gregory</Titulo>
     <Paragrafo fontSize={18} tipo="secundario">oLucasGregory</Paragrafo>
     <Contatos/>
-    <Descricao tipo="principal" fontSize={12} >Desenvolvedor Front-End</Descricao>
-    <div>
-    <BotaoTema>Trocar Tema</BotaoTema>
-    </div>
+    <Descricao tipo="secundario" fontSize={12} >Desenvolvedor Front-End</Descricao>
+    
     </SidebarContainer>
 
 
